@@ -1,6 +1,6 @@
 # Simple Platform for File Uploads
 
-This project sets up a basic platform using Flask for file uploads. It serves as the foundation for a Data Loss Prevention (DLP) solution, enabling file handling and preprocessing functionality. The platform will later be enhanced with advanced AI features like Named Entity Recognition (NER) and summarization.
+This project sets up a basic platform using Flask for file uploads. It serves as the foundation for a Data Loss Prevention (DLP) solution.
 
 ## Features
 
