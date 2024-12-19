@@ -21,3 +21,26 @@ Clone the GitHub repository to your local machine:
 git clone https://github.com/alpacabar/dlp
 cd dlp
 ```
+
+### Step 2: Set Up the Virtual Environment
+
+Create and activate a virtual environment:
+#### On Windows:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+#### On macOS/Linux:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 3: Install Dependencies
+
+Install the required Python packages:
+```
+pip install -r requirements.txt
+```
+
+## Usage
