@@ -16,7 +16,8 @@ Ensure you have the following installed:
 
 ### Step 1: Clone the Repository
 Clone the GitHub repository to your local machine:
-'''
+
+```
 git clone https://github.com/alpacabar/dlp
 cd dlp
-'''
+```
