@@ -44,3 +44,29 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+### Run the Flask Server
+Start the Flask server:
+```
+python server.py
+```
+The server will run at ```http://localhost:5000/.```
+
+### Test the /upload Endpoint
+Using Postman: 
+1. Open Postman and create a new POST request.
+2. Set the URL to:
+```
+http://localhost:5000/upload
+```
+3. Under the Body tab, select form-data.
+4. Add a key named ```file``` and attach any test file.
+5. Click Send.
+
+Using Python script: 
+Run the provided ```client.py``` script:
+```
+python client.py
+```
+This script uploads a test file and prints the server's response.
+
+
