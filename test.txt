@@ -1,1 +1,39 @@
-Hello, this is a test file to check the upload functionality.
+Invoice #00124
+Customer Name: Alice Wonderland
+Customer ID: 678910
+Address: 456 Elm Street, Suite 12C, Los Angeles, CA 90001
+Email: alice.wonderland@example.com
+Phone: +1-310-123-4567
+Credit Card: 4111-2222-3333-4444
+SSN: 123-45-6789
+Passport Number: P12345678
+Driver's License: D123-456-789-012
+Taxpayer Identification Number (TIN): 98-7654321
+Amount Due: $1,234.56
+Bank Account Number: 123456789012
+IBAN: US12 3456 7890 1234 5678 9012
+Swift Code: BOFAUS3N
+Payment Method: Wire Transfer
+Transaction ID: TXN67890
+Payment Date: January 5, 2025
+
+Additional Notes:
+This document contains highly sensitive personal, financial, and identification data. Strict adherence to data protection policies is required for handling this document.
+
+Audit Log:
+Reviewed by Compliance Team
+Reviewer: Jane Doe
+Review Date: January 5, 2025
+Comments: Ensure encryption during transmission and multi-factor authentication for access.
+Important Terms:
+This invoice is confidential and contains critical details, including financial information, personally identifiable information (PII), and government-issued identification numbers. Unauthorized access or disclosure may lead to severe penalties.
+
+Regulatory Compliance:
+All transactions must adhere to international data protection standards, such as:
+
+GDPR (General Data Protection Regulation)
+PCI DSS (Payment Card Industry Data Security Standard)
+CCPA (California Consumer Privacy Act)
+HIPAA (Health Insurance Portability and Accountability Act)
+SOX (Sarbanes-Oxley Act)
+Ensure encryption of all sensitive data in transit and at rest. Enable access logging and periodic audits. Non-compliance will result in penalties, including fines and operational restrictions.
