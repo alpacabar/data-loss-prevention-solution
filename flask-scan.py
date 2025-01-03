@@ -4,7 +4,7 @@ import tempfile
 from flask import Flask, request, jsonify
 
 # Configure these two 
-API_KEY = "NF-DtcvFao02BBh5fHHulBF5Oieqp5te3N3"  # Replace the Nightfall API Key
+API_KEY = "NF-gPAoiaOv0R4FhueNO73rOayfH4pR9wSP"  # Replace the Nightfall API Key
 API_ENDPOINT = "https://api.nightfall.ai/v3/scan"
 
 # Initialize Flask app
@@ -13,6 +13,7 @@ app = Flask(__name__)
 @app.route("/upload", methods=["POST"])
 def upload_file():
     """Handles file uploads and scans them for sensitive data."""
+
     if "file" not in request.files:
         return jsonify({"error": "No file provided"}), 400
 
@@ -60,7 +61,7 @@ def scan_file(file_path):
 
     # Prepare payload for Nightfall API
     payload = {
-        "policyUUIDs": ["c608a2f0-5bb4-48c5-8f8d-d3e2fd5f7cf4"],  # Replace the policy UUID
+        "policyUUIDs": ["19eadf49-7d6b-4e69-9690-c26c53eb7723"],  # Replace the policy UUID
         "payload": [file_content]
     }
 
