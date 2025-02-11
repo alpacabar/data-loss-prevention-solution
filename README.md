@@ -2,12 +2,12 @@
 
 This project establishes a robust foundation for a Data Loss Prevention (DLP) solution by providing a secure and scalable file upload system using Flask.
 
-## Features
+## Key Features
 
-✅ Secure File Uploads: Handles file uploads through an HTTP POST request with proper validation.
-✅ Structured Storage: Uploaded files are stored systematically in an organized directory (uploads).
-✅ JSON-based API: Responses are structured as JSON, providing clear success and error messages.
-✅ Extensible: Designed for easy integration into a full-fledged DLP solution.
+- Secure File Uploads: Handles file uploads through an HTTP POST request with proper validation.
+- Structured Storage: Uploaded files are stored systematically in an organized directory (uploads).
+- JSON-based API: Responses are structured as JSON, providing clear success and error messages.
+- Extensible: Designed for easy integration into a full-fledged DLP solution.
 
 ##  Quick Setup Guide
 ### Prerequisites
