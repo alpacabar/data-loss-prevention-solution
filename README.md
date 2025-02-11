@@ -1,14 +1,15 @@
-# Simple Platform for File Uploads
+#  Data Loss Prevention Solution for Upload System 
 
-This project sets up a basic platform using Flask for file uploads. It serves as the foundation for a Data Loss Prevention (DLP) solution.
+This project establishes a robust foundation for a Data Loss Prevention (DLP) solution by providing a secure and scalable file upload system using Flask.
 
 ## Features
 
-- File Upload Endpoint: Accepts file uploads via an HTTP POST request.
-- Directory Management: Saves uploaded files to a specified directory (uploads).
-- JSON Response: Returns success or error messages in JSON format.
+✅ Secure File Uploads: Handles file uploads through an HTTP POST request with proper validation.
+✅ Structured Storage: Uploaded files are stored systematically in an organized directory (uploads).
+✅ JSON-based API: Responses are structured as JSON, providing clear success and error messages.
+✅ Extensible: Designed for easy integration into a full-fledged DLP solution.
 
-## Setup Instructions
+##  Quick Setup Guide
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8 or higher
